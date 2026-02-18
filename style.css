@@ -212,8 +212,8 @@ h2 {
   box-shadow: var(--shadow);
   transition: var(--transition);
   text-align: center;
-  flex-direction: row;
-  width: 30%;
+  flex: 1 1 250px;
+  max-width: 300px;
 }
 
 .about-card:hover {
